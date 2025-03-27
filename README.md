@@ -2,31 +2,31 @@
 
 ![Game Screenshot](snake.png)
 
-Modern TypeScript ile geliştirilmiş klasik Yılan Oyunu.
+A modern implementation of the classic Snake game built with TypeScript.
 
-## 🎮 NASIL OYNANIR?
-### 🕹️ Kontroller
-| Tuş | Aksiyon |
-|-----|---------|
-| 🡅 Yukarı Ok | Yılanı yukarı hareket ettir |
-| 🡇 Aşağı Ok | Yılanı aşağı hareket ettir |
-| 🡄 Sol Ok | Yılanı sola hareket ettir |
-| 🡆 Sağ Ok | Yılanı sağa hareket ettir |
-| Space/Enter | Oyunu duraklat/devam ettir |
+## 🎮 HOW TO PLAY
+### 🕹️ Controls
+| Key | Action |
+|-----|--------|
+| ↑ Up Arrow | Move snake up |
+| ↓ Down Arrow | Move snake down |
+| ← Left Arrow | Move snake left |
+| → Right Arrow | Move snake right |
+| Space/Enter | Pause/resume game |
 
-### 🎯 Oyun Kuralları
-1. Yılanı yön tuşlarıyla kontrol edin
-2. 🍎 **Yeşil yemleri** toplayarak skor kazanın
-3. Her yemde:
-   - Skor +10 puan artar
-   - Yılanınız uzar
-4. ❌ **Yasaklar**:
-   - Duvarlara çarpmak
-   - Kendi vücuduna çarpmak
+### 🎯 Game Rules
+1. Control the snake using arrow keys
+2. Collect 🍎 **green apples** to score points
+3. For each apple:
+   - Score increases by +10 points
+   - Your snake grows longer
+4. ❌ **Avoid**:
+   - Hitting walls
+   - Crashing into your own tail
 
-## 🚀 KURULUM
+## 🚀 INSTALLATION
 ```bash
-git clone git@github.com:jovialpiglet/snake-game.git
+git clone https://github.com/jovialpiglet/snake-game.git
 cd snake-game
-npm install  # Gerekli paketleri yükle
-npm run dev  # Yerel sunucuyu başlat
+npm install  # Install dependencies
+npm run dev  # Start development server
