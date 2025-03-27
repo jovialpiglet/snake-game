@@ -1,6 +1,6 @@
 # 🐍 TypeScript Snake Game
 
-![Game Screenshot]([snake.png]))
+![Game Screenshot](snake.png)
 
 Modern TypeScript ile geliştirilmiş klasik Yılan Oyunu.
 
